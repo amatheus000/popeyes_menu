@@ -6,3 +6,153 @@
 * {
   box-sizing: border-box;
 }
+
+header {
+  display: flex;
+  position: sticky;
+}
+
+.popeyes-image {
+  justify-content: center;
+  align-items: center;
+  margin-left: 17rem;
+  margin-top: -2rem;
+  height: 150px;
+  width: 150px;
+}
+
+body {
+  font-family: "chicken_sans_bold";
+  /* background-color: rgb(245, 241, 239); */
+}
+
+.explore-our-menu {
+  top: rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  background-color: rgb(254, 125, 7);
+  height: 226px;
+}
+
+.heading-of-menu {
+  font-size: 28px;
+  font-weight: 300;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+menu {
+  margin: 4rem 10rem 4rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 14px 12px;
+  font-family: "chicken_sans_bold";
+  background-color: rgb(245, 241, 239);
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 0 0 10rem 0;
+  background-color: rgb(245, 241, 239);
+}
+
+section {
+  background-color: white;
+  width: 250px;
+}
+
+.left-section {
+  display: flex;
+  top: 50px;
+  right: 20rem;
+  left: 0rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.order {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.restaurants {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.offers {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.more {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.sign-up {
+  margin-left: 28rem;
+  margin-top: 2rem;
+}
+
+.cart {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.menu-image {
+  width: 250px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.central-section {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.bottom-section {
+  top: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  height: auto;
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
+
+.change {
+  margin-left: 1rem;
+  color: rgb(190, 90, 7);
+}
+
+footer {
+  height: 220px;
+  background-color: black;
+}
+
+h3 {
+  padding: 0.5rem;
+  color: rgb(190, 90, 7);
+}
+
+h2 {
+  font-size: 18px;
+  padding: 0.5rem;
+}
