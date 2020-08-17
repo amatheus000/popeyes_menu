@@ -9,7 +9,7 @@ const handleClick = async event =>
   const pageX = Math.round(event.pageX);
   const pageY = Math.round(event.pageY);
   const eventPath = event.path.find(
-    item => item.dataset.trackingId !== undefined
+    item => item.dataset.trackingid !== undefined
   );
   const timeOnPage = Math.round(event.timeStamp);
   const textInTarget = event.target.innerText;
